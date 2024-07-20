@@ -40,8 +40,12 @@
 
             @media screen and (min-width: 1080px) {
                 .container-404 {
-                    /*background: linear-gradient(90deg, var(--color-background) 0%, transparent 100%), url("https://Coffee-Mug-Games.github.io/assets/logo/org/coffee_mug_games.svg");*/
+                    /*
+                    background: linear-gradient(90deg, var(--color-background) 0%, transparent 100%), url("https://Coffee-Mug-Games.github.io/assets/logo/org/coffee_mug_games.svg");
+                    background-position: calc(5dvw + 95%) 10dvh;
+                    */
                     background: linear-gradient(90deg, var(--color-background) 0%, transparent 100%), url("https://Coffee-Mug-Games.github.io/assets/logo/org/bizarre_engine_2_logo.svg");
+                    background-position: calc(5dvw + 95%) 0dvh;
                 }
             }
             
@@ -68,7 +72,6 @@
             .container-404 {
                 background-repeat: no-repeat;
                 background-size: 512px;
-                background-position: calc(5dvw + 95%) 10dvh;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -115,8 +118,6 @@
                 -moz-border-radius: 10px;
                 -ms-border-radius: 10px;
                 -o-border-radius: 10px;
-                animation: home-startup 6s infinite;
-                -webkit-animation: home-startup 6s infinite;
             }
             
             .container-404-button {
