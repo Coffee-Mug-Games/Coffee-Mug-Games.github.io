@@ -13,7 +13,7 @@
         <meta name="keywords" content="engine, programming, Coffee Mug Games, source code, Bizarre Engine 2"/>
         <meta name="author" content="Coffee Mug Games"/>
         <meta name="robots" content="index, notranslate, nosnippet, noarchive, noimageindex">
-        <!-- <meta name="google-site-verification" content="6gnz18vTkCqHQHP8RFfnO5JJRssnlnDvRIWn21DNnxg"/> -->
+        <!-- <meta name="google-site-verification" content=""/> -->
         <meta property="og:title" content="Bizarre Engine 2"/>
         <meta property="og:site_name" content="Bizarre Engine 2"/>
         <meta property="og:description" content="Power-Up the simplicity."/>
@@ -29,12 +29,8 @@
     <body class="body-main">
         <nav class="nav-main">
             <ul>
-                <img src="assets/logo/org/bizarre_engine_2_linear.svg" class="nav-main-img" onclick="">
-                <!--
-                <li><a href="#games" class="nav-button">games</a></li>
-                <li class="nav-large-screen"><a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/" class="nav-button" target="_blank">Coffee Mug Games</a></li>
-                <li class="nav-large-screen"><a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/" class="nav-button" target="_blank">asas</a></li>
-                -->
+                <img src="assets/logo/org/bizarre_engine_2_linear.svg" class="nav-main-img" onclick="location.href='index.html';">
+
                 <li class="nav-large-screen"><a href="#overview" class="nav-button">overview</a></li>
                 <li class="nav-large-screen"><a href="#blog" class="nav-button">blog</a></li>
                 <li class="nav-large-screen"><a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/" class="nav-button" target="_blank">documentation</a></li>
@@ -57,13 +53,16 @@
 
             <div class="container-first-button">
                 <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/tag/v1.0" class="first-button" target="_blank"><img src="assets/logo/install/download.svg" class="nav-button-alt-img">download</a>
-                <a href="#install" class="first-button">get started</a>
+                <a href="#install" class="first-button-alt">get started</a>
             </div>
         </div>
 
         <div id="overview" class="container">
             <p class="container-title">overview</p>
-            <p class="container-subtitle">Features</p><div class="item-row-container">
+            <p class="container-subtitle">Quick Features</p>
+            <p class="container-content"></p>
+            
+            <div class="item-row-container">
                 
                 <div class="item-container">
                     <p class="item-container-title">Source Code</p>
@@ -78,35 +77,9 @@
                 </div>
                 
                 <div class="item-container">
-                    <p class="item-container-title">JSON Write & Read</p>
-                    <img src="assets/logo/features/json.svg" class="item-container-img">
-                    <p class="item-container-content">Write and read JSON files with one script call</p>
-                </div>
-            
-            <!--
-                <div class="item-container">
-                    <p class="item-container-title">Debugging</p>
-                    <img src="assets/logo/features/debug.svg" class="item-container-img">
-                    <p class="item-container-content">Bizarre Engine 2 debug mode will show you all engine data</p>
-                </div>
-            -->
-
-                <div class="item-container">
-                    <p class="item-container-title">Menu Drawing</p>
-                    <img src="assets/logo/features/menu.svg" class="item-container-img">
-                    <p class="item-container-content">Draw simple or advanced menus, or draw rainbow backgrounds</p>
-                </div>
-                
-                <div class="item-container">
-                    <p class="item-container-title">Exception Message</p>
-                    <img src="assets/logo/features/exception.svg" class="item-container-img">
-                    <p class="item-container-content">Exception error messages, warnings and custom error messages support</p>
-                </div>
-                
-                <div class="item-container">
-                    <p class="item-container-title">External Importing</p>
-                    <img src="assets/logo/features/import.svg" class="item-container-img">
-                    <p class="item-container-content">External audio & sprites importing from file using one script call</p>
+                    <p class="item-container-title">Transition System</p>
+                    <img src="assets/logo/features/transition.svg" class="item-container-img">
+                    <p class="item-container-content">Create soft and smooth transitions between rooms</p>
                 </div>
 
                 <div class="item-container">
@@ -114,8 +87,32 @@
                     <img src="assets/logo/features/screen_mode.svg" class="item-container-img">
                     <p class="item-container-content">Switch between windowed, borderless, borderless system or fullscreen</p>
                 </div>
+                
+                <div class="item-container-hide-on-mobile">
+                    <p class="item-container-title">JSON Write & Read</p>
+                    <img src="assets/logo/features/json.svg" class="item-container-img">
+                    <p class="item-container-content">Write and read JSON files with one script call</p>
+                </div>
 
-                <div class="item-container">
+                <div class="item-container-hide-on-mobile">
+                    <p class="item-container-title">Menu Drawing</p>
+                    <img src="assets/logo/features/menu.svg" class="item-container-img">
+                    <p class="item-container-content">Draw simple or advanced menus, or draw rainbow backgrounds</p>
+                </div>
+                
+                <div class="item-container-hide-on-mobile">
+                    <p class="item-container-title">Exception Message</p>
+                    <img src="assets/logo/features/exception.svg" class="item-container-img">
+                    <p class="item-container-content">Exception error messages, warnings and custom error messages support</p>
+                </div>
+                
+                <div class="item-container-hide-on-mobile">
+                    <p class="item-container-title">External Importing</p>
+                    <img src="assets/logo/features/import.svg" class="item-container-img">
+                    <p class="item-container-content">External audio & sprites importing from file using one script call</p>
+                </div>
+
+                <div class="item-container-hide-on-mobile">
                     <p class="item-container-title">Massive INI Write & Read</p>
                     <img src="assets/logo/features/ini_massive.svg" class="item-container-img">
                     <p class="item-container-content">Write or read ini files with thousands of values using one script call</p>
@@ -127,15 +124,45 @@
                     <p class="item-container-content">Explore by yourself</p>
                 </div>
             </div>
-
-            <img src="assets/logo/org/bizarre_engine_2.svg" class="container-img">
-            <p class="container-content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi dolore pariatur temporibus velit ipsam labore rerum, officiis rem dolor impedit natus, quam consequatur libero, repellat commodi earum officia voluptatum sint?</p>
         </div>
         
         <div id="blog" class="container">
             <p class="container-title">blog</p>
 
             <div class="blog-row-container">
+
+                <div class="blog-container">
+                    <div class="blog-container-sub">
+                        <img src="assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
+                        
+                        <div>
+                            <p class="blog-container-date">June 20, 2024</p>
+                            <p class="blog-container-title">Licencing info</p>
+                            <p class="blog-container-content">It's free to use Bizarre Engine 2?.</p>
+    
+                            <div class="blog-container-button">
+                                <a href="#blog" class="blog-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="blog-container">
+                    <div class="blog-container-sub">
+                        <img src="assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
+                        
+                        <div>
+                            <p class="blog-container-date">June 20, 2024</p>
+                            <p class="blog-container-title">YYMPS or Project?</p>
+                            <p class="blog-container-content">This guide will help you to choose.</p>
+    
+                            <div class="blog-container-button">
+                                <a href="#blog" class="blog-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="blog-container">
                     <div class="blog-container-sub">
                         <img src="assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
@@ -151,7 +178,7 @@
                         </div>
                     </div>
                 </div>
-
+                <!--
                 <div class="blog-container">
                     <div class="blog-container-sub">
                         <img src="assets/images/blog/use_gml.jpg" class="blog-container-img">
@@ -182,7 +209,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="assets/logo/page/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://Coffee-Mug-Games.github.io/css/cmg.css">
+        <title>Page Not Found</title>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&display=swap');
+            
+            * {
+                scroll-behavior: smooth;
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+            }
+            
+            *::-webkit-scrollbar { 
+                display: none;
+            }
+
+            :root {
+                --color-primary: #0c0c0c;
+                --color-secondary: #FFF;
+                --color-contrast: #181818;
+                --color-text: #FFF;
+                --color-text-alt: #000;
+                --color-text-unselected: #d6d6d6;
+                --color-background: #161616;
+                --color-background-container: #d6d6d6;
+                --color-background-container-alt: #a8a8a8;
+            }
+
+            @media screen and (max-width: 1080px) {
+                .container-404 {
+                    background: transparent;
+                }
+            }
+
+            @media screen and (min-width: 1080px) {
+                .container-404 {
+                    background: linear-gradient(90deg, var(--color-background) 0%, transparent 100%), url("https://Coffee-Mug-Games.github.io/assets/logo/org/coffee_mug_games.svg");
+                }
+            }
+            
+            @keyframes home-startup {
+                0% {
+                    text-shadow: 0px 0px 40px transparent;
+                }
+                50% {
+                    text-shadow: 0px 0px 20px var(--color-text-unselected);
+                }
+                100% {
+                    text-shadow: 0px 0px 40px transparent;
+                }
+            }
+            
+            .body-404 {
+                margin-top: 60px;
+                background-color: var(--color-background);
+                font-size: 18px;
+                font-family: "Kanit", sans-serif;
+                font-weight: 200;
+            }
+
+            .container-404 {
+                background-repeat: no-repeat;
+                background-size: 512px;
+                background-position: calc(5dvw + 95%) 10dvh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 0px 10px;
+                padding-bottom: 60px;
+            }
+
+            .container-404-img {
+                width: 216px;
+                height: auto;
+            }
+            
+            .container-404-title {
+                color: var(--color-text);
+                font-size: 80px;
+                margin: 8px 12px;
+                padding: 8px 12px;
+                letter-spacing: 4px;
+                font-family: "Kanit", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-transform: uppercase;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                animation: home-startup 6s infinite;
+                -webkit-animation: home-startup 6s infinite;
+            }
+
+            .container-404-subtitle {
+                color: var(--color-text);
+                font-size: 30px;
+                margin: 8px 12px;
+                padding: 8px 12px;
+                letter-spacing: 2px;
+                font-family: "Kanit", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-transform: uppercase;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                animation: home-startup 6s infinite;
+                -webkit-animation: home-startup 6s infinite;
+            }
+            
+            .container-404-button {
+                text-decoration: none;
+                color: var(--color-secondary);
+                background-color: var(--color-primary);
+                margin: 64px 16px 16px;
+                padding: 8px 16px;
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 8px;
+                font-size: 16px;
+                font-family: "Kanit", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-transform: uppercase;
+                text-decoration: none;
+                justify-content: center;
+            }
+            
+            .container-404-button:hover {
+                color: var(--color-text-alt);
+                background-color: var(--color-secondary);
+            }
+            
+            .footer-container {
+                user-select: none;
+                background-color: var(--color-primary);
+                color: var(--color-text);
+                margin: 0;
+                padding: 0;
+                left: 0;
+                right: 0;
+                top: 100dvh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 4px;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                -ms-border-radius: 4px;
+                -o-border-radius: 4px;
+            }
+
+            .footer-container-content {
+                color: var(--color-text);
+                margin: 16px 60px;
+                padding: 0px;
+                font-size: 20px;
+                font-family: "Kanit", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-align: center;
+            }
+
+            .footer-logo {
+                margin: 16px;
+                width: 128px;
+                height: auto;
+            }
+        </style>
+    </head>
+
+    <body class="body-404">
+        <div class="container-404">
+            <p class="container-404-title">404</p>
+            <img src="./assets/logo/page/sad_face.svg" class="container-404-img">
+            <p class="container-404-subtitle">Page not found</p>
+            <a href="https://Coffee-Mug-Games.github.io/" class="container-404-button">Return Home</a>
+        </div>
+
+        <footer class="footer-container">
+            <img src="assets/logo/org/coffee_mug_games.svg" class="footer-logo logo-cmg">
+            <p class="footer-container-content">Coffee Mug Games</p>
+        </footer>
+    </body>
+</html>
