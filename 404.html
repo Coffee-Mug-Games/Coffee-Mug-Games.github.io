@@ -36,6 +36,14 @@
                 .container-404 {
                     background: transparent;
                 }
+                
+                .container-404-title {
+                    font-size: 80px;
+                }
+                
+                .container-404-button {
+                    margin: 64px 16px 16px;
+                }
             }
 
             @media screen and (min-width: 1080px) {
@@ -45,7 +53,15 @@
                     background-position: calc(5dvw + 95%) 10dvh;
                     */
                     background: linear-gradient(90deg, var(--color-background) 0%, transparent 100%), url("https://Coffee-Mug-Games.github.io/assets/logo/org/bizarre_engine_2_logo.svg");
-                    background-position: calc(5dvw + 95%) 0dvh;
+                    background-position: calc(5dvw + 95%) 10dvh;
+                }
+                
+                .container-404-title {
+                    font-size: 100px;
+                }
+                
+                .container-404-button {
+                    margin: 96px 16px 16px;
                 }
             }
             
@@ -76,7 +92,7 @@
                 flex-direction: column;
                 align-items: center;
                 margin: 0px 10px;
-                padding-bottom: 60px;
+                padding-bottom: 120px;
             }
 
             .container-404-img {
@@ -86,8 +102,7 @@
             
             .container-404-title {
                 color: var(--color-text);
-                font-size: 80px;
-                margin: 8px 12px;
+                margin: 8px 12px 40px;
                 padding: 8px 12px;
                 letter-spacing: 4px;
                 font-family: "Kanit", sans-serif;
@@ -106,7 +121,7 @@
             .container-404-subtitle {
                 color: var(--color-text);
                 font-size: 30px;
-                margin: 8px 12px;
+                margin: 12px;
                 padding: 8px 12px;
                 letter-spacing: 2px;
                 font-family: "Kanit", sans-serif;
@@ -124,7 +139,6 @@
                 text-decoration: none;
                 color: var(--color-secondary);
                 background-color: var(--color-primary);
-                margin: 64px 16px 16px;
                 padding: 8px 16px;
                 border-style: solid;
                 border-width: 1px;
@@ -144,7 +158,6 @@
             }
             
             .footer-container {
-                position: fixed;
                 user-select: none;
                 background-color: var(--color-primary);
                 color: var(--color-text);
