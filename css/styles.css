@@ -51,7 +51,7 @@
         width: 280px;
         height: auto;
         margin: 8px 12px;
-        padding: 8px 12px;
+        padding: 8px;
     }
 
     .item-container-hide-on-mobile {
@@ -85,7 +85,7 @@
         width: 512px;
         height: auto;
         margin: 8px 12px;
-        padding: 8px 12px;
+        padding: 8px;
     }
 
     .item-container-hide-on-mobile {
@@ -518,7 +518,7 @@
 .container-first-title {
     color: var(--color-text);
     margin: 8px 12px;
-    padding: 8px 12px;
+    padding: 8px 16px;
     letter-spacing: 1.5px;
     font-family: "Kanit", sans-serif;
     font-weight: 400;
@@ -538,7 +538,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding-left: 16px;
+    padding-left: 24px;
 }
 
 .first-button {
