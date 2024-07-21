@@ -40,7 +40,7 @@
         background: linear-gradient(90deg, var(--color-background) 0%, transparent 100%), url("../assets/logo/org/bizarre_engine_2_logo.svg");
         background-repeat: no-repeat;
         background-size: 400px;
-        background-position: calc(20dvw + 80%) 10dvh;
+        background-position: calc(20dvw + 80%) 12.5dvh;
     }
     
     .container-first-title {
@@ -131,7 +131,7 @@
 /* Nav */
 .nav-main {
     display: flex;
-    position: fixed;
+    position: fixed; /* sticky */
     height: 60px;
     left: 0;
     right: 0;
@@ -247,7 +247,8 @@
 
 /* Body */
 .body-main {
-    margin-top: 60px;
+    margin: 60px 0px 0px;
+    padding: 0;
     background-color: var(--color-background);
     font-size: 18px;
     font-family: "Kanit", sans-serif;
@@ -642,7 +643,6 @@
     font-weight: 600;
     font-style: normal;
     text-transform: uppercase;
-    /*text-shadow: 0px 0px 30px var(--color-text-unselected);*/
     align-self: flex-start;
 }
 
@@ -656,7 +656,6 @@
     font-weight: 600;
     font-style: normal;
     text-transform: uppercase;
-    /*text-shadow: 0px 0px 30px var(--color-text-unselected);*/
     align-self: flex-start;
 }
 
