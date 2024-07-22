@@ -49,18 +49,46 @@
             
             <!-- Hamburguer -->
             <a class="nav-button-alt nav-hamburguer" onclick="navHamburguerInteract()"><img src="assets/logo/page/hamburguer.svg" class="nav-button-alt-img" id="navHamburguerIcon"></a>
-
-            <div id="navHamburguerCollapsable" class="nav-mobile" style="visibility: hidden;">
-                <ul>
-                    <img src="assets/logo/org/bizarre_engine_2_linear.svg" class="nav-main-img" onclick="location.href='index.html';">
-                    
-                    <li class="nav-large-screen"><a href="#overview" class="nav-button">overview</a></li>
-                    <li class="nav-large-screen"><a href="#blog" class="nav-button">blog</a></li>
-                    <li class="nav-large-screen"><a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/" class="nav-button" target="_blank">documentation</a></li>
-                    <li class="nav-large-screen"><a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2" class="nav-button" target="_blank">source code</a></li>
-                </ul>
-            </div>
         </nav>
+        
+        <div id="navHamburguerCollapsable" class="nav-hamburguer-tray" style="visibility: hidden;" class="nav-hamburguer-option" onclick="navHamburguerCollapse()">
+            <ul>
+                <li>
+                    <a href="#overview" class="nav-hamburguer-button">
+                        <img src="assets/logo/page/overview.svg" class="nav-hamburguer-button-img">
+                        <p>overview</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#blog" class="nav-hamburguer-button">
+                        <img src="assets/logo/page/blog.svg" class="nav-hamburguer-button-img">
+                        <p>blog</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/" class="nav-hamburguer-button" target="_blank">
+                        <img src="assets/logo/page/documentation.svg" class="nav-hamburguer-button-img">
+                        <p>documentation</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2" class="nav-hamburguer-button" target="_blank">
+                        <img src="assets/logo/page/source_code.svg" class="nav-hamburguer-button-img">
+                        <p>source code</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/latest" class="nav-hamburguer-button" target="_blank">
+                        <img src="assets/logo/page/download_nav.svg" class="nav-hamburguer-button-img">
+                        <p>download</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
         <main onclick="navHamburguerCollapse()">
             <div id="home" class="container-first">
@@ -274,7 +302,7 @@
 
         <footer class="footer-container">
             <img src="assets/logo/org/coffee_mug_games.svg" class="footer-logo logo-cmg">
-            <p class="footer-container-content">Coffee Mug Games</p>
+            <p class="footer-container-content">2024 Coffee Mug Games</p>
         </footer>
     </body>
 </html>

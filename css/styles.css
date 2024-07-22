@@ -96,14 +96,6 @@
 
 /* Keyframes */
 @keyframes page-startup-anim {
-    /*
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }*/
-
     0% {
         opacity: 0;
     }
@@ -144,6 +136,17 @@
         opacity: 0;
     }
     to {
+        opacity: 1;
+    }
+}
+
+@keyframes nav-hamburguer-interact {
+    0% {
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        height: auto;
         opacity: 1;
     }
 }
@@ -239,7 +242,6 @@
 .nav-main ul {
     display: flex;
     list-style-type: none;
-    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
@@ -329,11 +331,76 @@
     -webkit-animation: nav-startup 0.5s forwards;
 }
 
-/* Mobile nav */
-.nav-mobile {
-    visibility: hidden;
+/* Hamburguer nav */
+.nav-hamburguer-tray {
     position: fixed;
     top: 60px;
+    width: 100%;
+    user-select: none;
+    background-color: var(--color-primary);
+    border-top: 1px solid var(--color-secondary);
+    border-bottom: 1px solid var(--color-secondary);
+}
+
+.nav-hamburguer-tray ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-hamburguer-tray ul li {
+    float: left;
+}
+
+.nav-hamburguer-option {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-hamburguer-button {
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.nav-hamburguer-button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.nav-hamburguer-button:active {
+    background-color: var(--color-text-unselected);
+    color: var(--color-primary);
+}
+
+.nav-hamburguer-button img {
+    width: 32px;
+    height: auto;
+}
+
+.nav-hamburguer-button:hover img {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.nav-hamburguer-button p {
+    padding-left: 8px;
 }
 
 

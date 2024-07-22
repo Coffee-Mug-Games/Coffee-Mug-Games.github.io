@@ -23,12 +23,10 @@ function navHamburguerInteract() {
     if (navHamburguerOpen === false) {
         navHamburguerOpen = true;
         navHamburguer.style.visibility = "hidden";
-        navHamburguer.style.height = 0;
         navHamburguerIcon.src = "./assets/logo/page/hamburguer.svg";
     } else {
         navHamburguerOpen = false;
         navHamburguer.style.visibility = "visible";
-        navHamburguer.style.height = "auto";
         navHamburguerIcon.src = "./assets/logo/page/hamburguer_close.svg";
     }
 }
