@@ -793,7 +793,7 @@
     color: var(--color-primary);
     background-color: var(--color-text-unselected);
 }
-
+/*
 .container-first-img-down {
     display: flex;
     position: absolute;
@@ -806,6 +806,13 @@
     -moz-transform: translateX(-64px);
     -ms-transform: translateX(-64px);
     -o-transform: translateX(-64px);
+}*/
+
+.container-first-img-down {
+    display: flex;
+    margin: 10dvh;
+    padding: 0;
+    justify-content: center;
 }
 
 .container-first-img-down img {
