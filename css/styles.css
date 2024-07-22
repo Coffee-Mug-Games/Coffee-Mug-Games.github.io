@@ -796,16 +796,23 @@
 
 .container-first-img-down {
     display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 40dvh;
+    left: 50%;
     margin: 0;
     padding: 0;
+    transform: translateX(-64px);
+    -webkit-transform: translateX(-64px);
+    -moz-transform: translateX(-64px);
+    -ms-transform: translateX(-64px);
+    -o-transform: translateX(-64px);
 }
 
 .container-first-img-down img {
     width: 128px;
     height: auto;
-    margin: 100px 12px 0px;
-    padding: 8px;
+    margin: 0;
+    padding: 0;
     animation: container-first-down 3s infinite ease-in-out;
     -webkit-animation: container-first-down 3s infinite ease-in-out;
 }
