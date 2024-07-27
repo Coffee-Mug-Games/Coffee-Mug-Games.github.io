@@ -358,6 +358,7 @@
 /* Hamburguer nav */
 .nav-hamburguer-tray {
     position: fixed;
+    z-index: 99;
     top: 60px;
     width: 100%;
     user-select: none;

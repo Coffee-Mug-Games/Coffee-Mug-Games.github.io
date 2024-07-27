@@ -13,6 +13,7 @@ function pageStartup() {
 //#endregion
 
 //#region Nav
+
 let navHamburguerOpen = false;
 
 // Check close
