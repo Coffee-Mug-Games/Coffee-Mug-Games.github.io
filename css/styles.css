@@ -60,6 +60,11 @@
         padding: 8px;
     }
     
+    .container-first-img-down img {
+        width: 96px;
+        margin: 30px 0px;
+    }
+    
     /* Items */
     .item-container-hide-on-mobile {
         display: none;
@@ -128,6 +133,11 @@
         height: auto;
         margin: 8px 12px;
         padding: 8px;
+    }
+    
+    .container-first-img-down img {
+        width: 128px;
+        margin: 0px;
     }
     
     /* Items */
@@ -238,26 +248,26 @@
 
 @keyframes container-first-down {
     0% {
-        transform: translateY(-25px);
-        -webkit-transform: translateY(-25px);
-        -moz-transform: translateY(-25px);
-        -ms-transform: translateY(-25px);
-        -o-transform: translateY(-25px);
-    }
+        transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -o-transform: translateY(-15px);
+}
     50% {
-        transform: translateY(25px);
-        -webkit-transform: translateY(25px);
-        -moz-transform: translateY(25px);
-        -ms-transform: translateY(25px);
-        -o-transform: translateY(25px);
-    }
+        transform: translateY(0px);
+        -webkit-transform: translateY(05px);
+        -moz-transform: translateY(05px);
+        -ms-transform: translateY(05px);
+        -o-transform: translateY(05px);
+}
     100% {
-        transform: translateY(-25px);
-        -webkit-transform: translateY(-25px);
-        -moz-transform: translateY(-25px);
-        -ms-transform: translateY(-25px);
-        -o-transform: translateY(-25px);
-    }
+        transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -o-transform: translateY(-15px);
+}
 }
 
 /* Other */
@@ -368,6 +378,9 @@
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+}
+
+.nav-main-button-anim ul li a {
     animation: nav-button-side 0.5s forwards;
     -webkit-animation: nav-button-side 0.5s forwards;
 }
@@ -761,7 +774,7 @@
 .container-first {
     display: flex;
     flex-direction: column;
-    margin: 120px 10px;
+    margin: 10px;
     padding-top: 20dvh;
     padding-bottom: 30dvh;
 }
@@ -884,9 +897,7 @@
 }
 
 .container-first-img-down img {
-    width: 128px;
     height: auto;
-    margin: 0;
     padding: 0;
     animation: container-first-down 3s infinite ease-in-out;
     -webkit-animation: container-first-down 3s infinite ease-in-out;

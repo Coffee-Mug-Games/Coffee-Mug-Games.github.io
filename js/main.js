@@ -34,7 +34,10 @@ function navHamburguerInteract() {
 
 // Force close
 function navHamburguerCollapse() {
+    let navMain = document.getElementById("navMain");
+
     navHamburguerOpen = false;
+    navMain.classList = "nav-main nav-main-button-anim";
     navHamburguerInteract();
 }
 
