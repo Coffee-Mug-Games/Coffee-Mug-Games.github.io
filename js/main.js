@@ -48,4 +48,4 @@ viewWidth.addEventListener("change", function() {
     navHamburgerCollapse();
 });
 
-//#endregion
+//#endregions
