@@ -1,12 +1,12 @@
-let pageStarted = false;
+//#region Startup
 
-//#region startup
+let pageStarted = false;
 
 function pageStartup() {
     let pageStartupDiv = document.getElementById("pageStartupDiv");
 
     pageStarted = true;
-    navHamburguerCollapse();
+    navHamburgerCollapse();
     pageStartupDiv.classList = "page-startup page-startup-loaded";
 }
 
@@ -14,38 +14,38 @@ function pageStartup() {
 
 //#region Nav
 
-let navHamburguerOpen = false;
+let navHamburgerOpen = false;
 
 // Check close
-function navHamburguerInteract() {
-    let navHamburguer = document.getElementById("navHamburguerCollapsable");
-    let navHamburguerIcon = document.getElementById("navHamburguerIcon");
+function navHamburgerInteract() {
+    let navHamburger = document.getElementById("navHamburgerCollapsable");
+    let navHamburgerIcon = document.getElementById("navHamburgerIcon");
     
-    if (navHamburguerOpen === false) {
-        navHamburguerOpen = true;
-        navHamburguer.style.visibility = "hidden";
-        navHamburguerIcon.src = "./assets/logo/page/hamburguer.svg";
+    if (navHamburgerOpen === false) {
+        navHamburgerOpen = true;
+        navHamburger.style.visibility = "hidden";
+        navHamburgerIcon.src = "./assets/logo/page/hamburguer.svg";
     } else {
-        navHamburguerOpen = false;
-        navHamburguer.style.visibility = "visible";
-        navHamburguerIcon.src = "./assets/logo/page/hamburguer_close.svg";
+        navHamburgerOpen = false;
+        navHamburger.style.visibility = "visible";
+        navHamburgerIcon.src = "./assets/logo/page/hamburguer_close.svg";
     }
 }
 
 // Force close
-function navHamburguerCollapse() {
+function navHamburgerCollapse() {
     let navMain = document.getElementById("navMain");
 
-    navHamburguerOpen = false;
+    navHamburgerOpen = false;
     navMain.classList = "nav-main nav-main-button-anim";
-    navHamburguerInteract();
+    navHamburgerInteract();
 }
 
 // Auto close nav
 let viewWidth = window.matchMedia("(max-width: 1080px)");
 
 viewWidth.addEventListener("change", function() {
-    navHamburguerCollapse();
+    navHamburgerCollapse();
 });
 
 //#endregion
