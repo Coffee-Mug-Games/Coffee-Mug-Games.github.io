@@ -30,7 +30,7 @@ function navHamburgerInteract() {
         navHamburgerOpen = false;
         // open
         navHamburgerIcon.src = "./assets/logo/page/hamburguer_close.svg";
-        navHamburger.style.animation = "nav-hamburguer-tray-open 0.4s forwards ease";
+        navHamburger.style.animation = "nav-hamburguer-tray-open 0.2s forwards ease";
     }
 }
 
