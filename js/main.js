@@ -25,7 +25,7 @@ function navHamburgerInteract() {
         navHamburgerOpen = true;
         // close
         navHamburgerIcon.src = "./assets/logo/page/hamburguer.svg";
-        navHamburger.style.animation = "nav-hamburguer-tray-close 0.2s forwards ease";
+        navHamburger.style.animation = "nav-hamburguer-tray-close 0.3s forwards ease";
     } else {
         navHamburgerOpen = false;
         // open
