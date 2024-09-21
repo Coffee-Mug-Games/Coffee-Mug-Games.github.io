@@ -12,18 +12,16 @@
 }
 
 :root {
-    color-scheme: dark;
-
-    --color-primary:                    light-dark(#FFFFFF, #0c0c0c);
-    --color-secondary:                  light-dark(#181818, #FFFFFF);
-    --color-contrast:                   light-dark(#d6d6d6, #181818);
-    --color-text:                       light-dark(#000000, #FFFFFF);
-    --color-text-alt:                   light-dark(#FFFFFF, #000000);
-    --color-text-unselected:            light-dark(#3f3f3f, #d6d6d6);
-    --color-nav-border:                 light-dark(#383838, #383838);
-    --color-background:                 light-dark(#d6d6d6, #161616);
-    --color-background-container:       light-dark(#d6d6d6, #d6d6d6);
-    --color-background-container-alt:   light-dark(#a8a8a8, #a8a8a8);
+    --color-primary:                    #0c0c0c;
+    --color-secondary:                  #ffffff;
+    --color-contrast:                   #181818;
+    --color-text:                       #ffffff;
+    --color-text-alt:                   #000000;
+    --color-text-unselected:            #d6d6d6;
+    --color-nav-border:                 #383838;
+    --color-background:                 #161616;
+    --color-background-container:       #d6d6d6;
+    --color-background-container-alt:   #a8a8a8;
 }
 
 
