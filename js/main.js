@@ -23,12 +23,14 @@ function navHamburgerInteract() {
     
     if (navHamburgerOpen === false) {
         navHamburgerOpen = true;
-        navHamburger.style.visibility = "hidden";
+        // close
         navHamburgerIcon.src = "./assets/logo/page/hamburguer.svg";
+        navHamburger.style.animation = "nav-hamburguer-tray-close 0.8s forwards ease-out";
     } else {
         navHamburgerOpen = false;
-        navHamburger.style.visibility = "visible";
+        // open
         navHamburgerIcon.src = "./assets/logo/page/hamburguer_close.svg";
+        navHamburger.style.animation = "nav-hamburguer-tray-open 0.8s forwards ease";
     }
 }
 

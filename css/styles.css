@@ -223,14 +223,25 @@
     }
 }
 
-@keyframes nav-hamburguer-interact {
-    0% {
-        height: 0;
+@keyframes nav-hamburguer-tray-open {
+    from {
+        top: -500px;
         opacity: 0;
     }
-    100% {
-        height: auto;
+    to {
+        top: 60px;
         opacity: 1;
+    }
+}
+
+@keyframes nav-hamburguer-tray-close {
+    from {
+        top: 60px;
+        opacity: 1;
+    }
+    to {
+        top: -500px;
+        opacity: 0;
     }
 }
 
@@ -269,6 +280,7 @@
         -o-transform: translateY(-15px);
 }
 }
+
 
 /* Other */
 .disable-scrolling {
@@ -444,8 +456,7 @@
 /* Hamburguer nav */
 .nav-hamburguer-tray {
     position: fixed;
-    z-index: 99;
-    top: 60px;
+    z-index: 98;
     width: 100%;
     user-select: none;
     background-color: var(--color-primary);
