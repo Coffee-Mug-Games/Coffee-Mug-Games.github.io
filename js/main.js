@@ -25,12 +25,12 @@ function navHamburgerInteract() {
         navHamburgerOpen = true;
         // close
         navHamburgerIcon.src = "./assets/logo/page/hamburguer.svg";
-        navHamburger.style.animation = "nav-hamburguer-tray-close 0.8s forwards ease-out";
+        navHamburger.style.animation = "nav-hamburguer-tray-close 0.5s forwards ease-out";
     } else {
         navHamburgerOpen = false;
         // open
         navHamburgerIcon.src = "./assets/logo/page/hamburguer_close.svg";
-        navHamburger.style.animation = "nav-hamburguer-tray-open 0.8s forwards ease";
+        navHamburger.style.animation = "nav-hamburguer-tray-open 0.5s forwards ease";
     }
 }
 
