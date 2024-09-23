@@ -99,6 +99,19 @@
     .item-button img {
         width: 16px;
     }
+
+    /* 404 */
+    .container-404 {
+        background: transparent;
+    }
+    
+    .container-404-title {
+        font-size: 80px;
+    }
+    
+    .container-404-button {
+        margin: 64px 16px 16px;
+    }
 }
 
 @media screen and (min-width: 1080px) {
@@ -173,6 +186,20 @@
     
     .item-button img {
         width: 24px;
+    }
+    
+    /* 404 */
+    .container-404 {
+        background: linear-gradient(90deg, var(--color-background) 0%, transparent 100%), url("../assets/logo/org/bizarre_engine_2_logo.svg");
+        background-position: calc(5dvw + 95%) 10dvh;
+    }
+    
+    .container-404-title {
+        font-size: 100px;
+    }
+    
+    .container-404-button {
+        margin: 96px 16px 16px;
     }
 }
 
@@ -264,21 +291,21 @@
         -moz-transform: translateY(-15px);
         -ms-transform: translateY(-15px);
         -o-transform: translateY(-15px);
-}
+    }
     50% {
         transform: translateY(0px);
         -webkit-transform: translateY(05px);
         -moz-transform: translateY(05px);
         -ms-transform: translateY(05px);
         -o-transform: translateY(05px);
-}
+    }
     100% {
         transform: translateY(-15px);
         -webkit-transform: translateY(-15px);
         -moz-transform: translateY(-15px);
         -ms-transform: translateY(-15px);
         -o-transform: translateY(-15px);
-}
+    }
 }
 
 
@@ -1013,4 +1040,79 @@
     margin: 16px;
     width: 128px;
     height: auto;
+}
+
+
+/* 404 */
+.container-404 {
+    min-height: 70dvh;
+    background-repeat: no-repeat;
+    background-size: 512px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+    padding-bottom: 120px;
+}
+
+.container-404-img {
+    width: 216px;
+    height: auto;
+}
+
+.container-404-title {
+    color: var(--color-text);
+    margin: 8px 12px 40px;
+    padding: 8px 12px;
+    letter-spacing: 4px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation: home-startup 6s infinite;
+    -webkit-animation: home-startup 6s infinite;
+}
+
+.container-404-subtitle {
+    color: var(--color-text);
+    font-size: 30px;
+    margin: 12px;
+    padding: 8px 12px;
+    letter-spacing: 2px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container-404-button {
+    text-decoration: none;
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.container-404-button:hover {
+    color: var(--color-text-alt);
+    background-color: var(--color-secondary);
 }
