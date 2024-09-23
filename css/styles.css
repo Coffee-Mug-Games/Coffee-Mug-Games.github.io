@@ -1043,16 +1043,9 @@
 }
 
 
-/* 404 */            
-.body-404 {
-    margin-top: 60px;
-    background-color: var(--color-background);
-    font-size: 18px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
-}
-
+/* 404 */
 .container-404 {
+    min-height: 70dvh;
     background-repeat: no-repeat;
     background-size: 512px;
     display: flex;
