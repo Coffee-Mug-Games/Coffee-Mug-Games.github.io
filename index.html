@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="shortcut icon" href="assets/logo/page/favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/cmg.css">
-        <script src="js/main.js"></script>
+        <link rel="shortcut icon" href="./assets/logo/page/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/cmg.css">
+        <script src="./js/main.js"></script>
         <title>Bizarre Engine 2</title>
 
         <!-- Robots -->
@@ -29,15 +29,13 @@
 
     <body class="body-main" onload="pageStartup()">
         <div id="pageStartupDiv" class="page-startup disable-scrolling">
-            <!-- <img src="assets/logo/org/bizarre_engine_2.svg"> -->
-            <!-- <img src="assets/logo/page/loading.svg"> -->
-            <img src="assets/logo/org/bizarre_engine_2_logo.svg">
+            <img src="./assets/logo/org/bizarre_engine_2_logo.svg">
             <p>loading page</p>
         </div>
 
         <nav class="nav-main" id="navMain">
             <ul>
-                <img src="assets/logo/org/bizarre_engine_2_linear.svg" class="nav-main-img" onclick="location.href='index.html';">
+                <img src="./assets/logo/org/bizarre_engine_2_linear.svg" class="nav-main-img" onclick="location.href='index.html';">
 
                 <li class="nav-large-screen"><a href="#overview" class="nav-button">overview</a></li>
                 <li class="nav-large-screen"><a href="#blog" class="nav-button">blog</a></li>
@@ -45,45 +43,45 @@
                 <li class="nav-large-screen"><a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2" class="nav-button" target="_blank">source code</a></li>
             </ul>
             
-            <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/latest" class="nav-button-alt nav-large-screen" target="_blank"><img src="assets/logo/install/download.svg" class="nav-button-alt-img">download</a>
+            <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/latest" class="nav-button-alt nav-large-screen" target="_blank"><img src="./assets/logo/install/download.svg" class="nav-button-alt-img">download</a>
             
             <!-- Hamburguer -->
-            <a class="nav-button-alt nav-hamburguer" onclick="navHamburgerInteract()"><img src="assets/logo/page/hamburguer.svg" class="nav-button-alt-img" id="navHamburgerIcon"></a>
+            <a class="nav-button-alt nav-hamburguer" onclick="navHamburgerInteract()"><img src="./assets/logo/page/hamburguer.svg" class="nav-button-alt-img" id="navHamburgerIcon"></a>
         </nav>
         
         <div id="navHamburgerCollapsable" class="nav-hamburguer-tray" class="nav-hamburguer-option" onclick="navHamburgerCollapse()">
             <ul>
                 <li>
                     <a href="#overview" class="nav-hamburguer-button">
-                        <img src="assets/logo/page/overview.svg" class="nav-hamburguer-button-img">
+                        <img src="./assets/logo/page/overview.svg" class="nav-hamburguer-button-img">
                         <p>overview</p>
                     </a>
                 </li>
 
                 <li>
                     <a href="#blog" class="nav-hamburguer-button">
-                        <img src="assets/logo/page/blog.svg" class="nav-hamburguer-button-img">
+                        <img src="./assets/logo/page/blog.svg" class="nav-hamburguer-button-img">
                         <p>blog</p>
                     </a>
                 </li>
 
                 <li>
                     <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/" class="nav-hamburguer-button" target="_blank">
-                        <img src="assets/logo/page/documentation.svg" class="nav-hamburguer-button-img">
+                        <img src="./assets/logo/page/documentation.svg" class="nav-hamburguer-button-img">
                         <p>documentation</p>
                     </a>
                 </li>
 
                 <li>
                     <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2" class="nav-hamburguer-button" target="_blank">
-                        <img src="assets/logo/page/source_code.svg" class="nav-hamburguer-button-img">
+                        <img src="./assets/logo/page/source_code.svg" class="nav-hamburguer-button-img">
                         <p>source code</p>
                     </a>
                 </li>
 
                 <li>
                     <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/latest" class="nav-hamburguer-button" target="_blank">
-                        <img src="assets/logo/page/download_nav.svg" class="nav-hamburguer-button-img">
+                        <img src="./assets/logo/page/download_nav.svg" class="nav-hamburguer-button-img">
                         <p>download</p>
                     </a>
                 </li>
@@ -96,7 +94,7 @@
                 <p class="container-first-title">Power-Up the simplicity</p>
 
                 <div class="container-first-button">
-                    <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/latest" class="first-button" target="_blank"><img src="assets/logo/install/download.svg" class="nav-button-alt-img">download</a>
+                    <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/latest" class="first-button" target="_blank"><img src="./assets/logo/install/download.svg" class="nav-button-alt-img">download</a>
                     <a href="#install" class="first-button-alt">get started</a>
                 </div>
 
@@ -112,61 +110,61 @@
                     
                     <div class="item-container">
                         <p class="item-container-title">Source Code</p>
-                        <img src="assets/logo/features/source_code.svg" class="item-container-img">
+                        <img src="./assets/logo/features/source_code.svg" class="item-container-img">
                         <p class="item-container-content">Access to Bizarre Engine 2 source code and customize everything</p>
                     </div>
 
                     <div class="item-container">
                         <p class="item-container-title">Delta Time</p>
-                        <img src="assets/logo/features/delta_time.svg" class="item-container-img">
+                        <img src="./assets/logo/features/delta_time.svg" class="item-container-img">
                         <p class="item-container-content">Full Delta Time support and customizable values</p>
                     </div>
                     
                     <div class="item-container">
                         <p class="item-container-title">Transition System</p>
-                        <img src="assets/logo/features/transition.svg" class="item-container-img">
+                        <img src="./assets/logo/features/transition.svg" class="item-container-img">
                         <p class="item-container-content">Create soft and smooth transitions between rooms</p>
                     </div>
 
                     <div class="item-container">
                         <p class="item-container-title">Screen Mode Support</p>
-                        <img src="assets/logo/features/screen_mode.svg" class="item-container-img">
+                        <img src="./assets/logo/features/screen_mode.svg" class="item-container-img">
                         <p class="item-container-content">Switch between windowed, borderless, borderless system or fullscreen</p>
                     </div>
                     
                     <div class="item-container">
                         <p class="item-container-title">JSON Write & Read</p>
-                        <img src="assets/logo/features/json.svg" class="item-container-img">
+                        <img src="./assets/logo/features/json.svg" class="item-container-img">
                         <p class="item-container-content">Write and read JSON files with one script call</p>
                     </div>
 
                     <div class="item-container-hide-on-mobile">
                         <p class="item-container-title">Menu Drawing</p>
-                        <img src="assets/logo/features/menu.svg" class="item-container-img">
+                        <img src="./assets/logo/features/menu.svg" class="item-container-img">
                         <p class="item-container-content">Draw simple or advanced menus, or draw rainbow backgrounds</p>
                     </div>
                     
                     <div class="item-container-hide-on-mobile">
                         <p class="item-container-title">Exception Message</p>
-                        <img src="assets/logo/features/exception.svg" class="item-container-img">
+                        <img src="./assets/logo/features/exception.svg" class="item-container-img">
                         <p class="item-container-content">Exception error messages, warnings and custom error messages support</p>
                     </div>
                     
                     <div class="item-container-hide-on-mobile">
                         <p class="item-container-title">External Importing</p>
-                        <img src="assets/logo/features/import.svg" class="item-container-img">
+                        <img src="./assets/logo/features/import.svg" class="item-container-img">
                         <p class="item-container-content">External audio & sprites importing from file using one script call</p>
                     </div>
 
                     <div class="item-container-hide-on-mobile">
                         <p class="item-container-title">Massive INI Write & Read</p>
-                        <img src="assets/logo/features/ini_massive.svg" class="item-container-img">
+                        <img src="./assets/logo/features/ini_massive.svg" class="item-container-img">
                         <p class="item-container-content">Write or read ini files with thousands of values using one script call</p>
                     </div>
 
                     <div class="item-container">
                         <p class="item-container-title">And More</p>
-                        <img src="assets/logo/features/more.svg" class="item-container-img">
+                        <img src="./assets/logo/features/more.svg" class="item-container-img">
                         <p class="item-container-content">Explore by yourself</p>
                     </div>
                 </div>
@@ -179,7 +177,7 @@
 
                     <div class="blog-container">
                         <div class="blog-container-sub">
-                            <img src="assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
+                            <img src="./assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
                             
                             <div>
                                 <p class="blog-container-date">June 20, 2024</p>
@@ -187,7 +185,7 @@
                                 <p class="blog-container-content">It's free to use Bizarre Engine 2?.</p>
         
                                 <div class="blog-container-button">
-                                    <a href="#blog" class="blog-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
+                                    <a href="#blog" class="blog-button" target="_blank"><img src="./assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
                                 </div>
                             </div>
                         </div>
@@ -195,7 +193,7 @@
         
                     <div class="blog-container">
                         <div class="blog-container-sub">
-                            <img src="assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
+                            <img src="./assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
                             
                             <div>
                                 <p class="blog-container-date">June 20, 2024</p>
@@ -203,7 +201,7 @@
                                 <p class="blog-container-content">This guide will help you to choose.</p>
         
                                 <div class="blog-container-button">
-                                    <a href="#blog" class="blog-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
+                                    <a href="#blog" class="blog-button" target="_blank"><img src="./assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +209,7 @@
 
                     <div class="blog-container">
                         <div class="blog-container-sub">
-                            <img src="assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
+                            <img src="./assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
                             
                             <div>
                                 <p class="blog-container-date">July 19, 2024</p>
@@ -219,43 +217,11 @@
                                 <p class="blog-container-content">Read the full changelog.</p>
 
                                 <div class="blog-container-button">
-                                    <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/tag/v1.0" class="blog-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
+                                    <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/tag/v1.0" class="blog-button" target="_blank"><img src="./assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!--
-                    <div class="blog-container">
-                        <div class="blog-container-sub">
-                            <img src="assets/images/blog/use_gml.jpg" class="blog-container-img">
-                            
-                            <div>
-                                <p class="blog-container-date">June 18, 2024</p>
-                                <p class="blog-container-title">Gamemaker</p>
-                                <p class="blog-container-content">Base to use Bizarre Engine 2.</p>
-
-                                <div class="blog-container-button">
-                                    <a href="#blog" class="blog-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="blog-container">
-                        <div class="blog-container-sub">
-                            <img src="assets/images/blog/bizarre_engine_2.svg" class="blog-container-img">
-                            
-                            <div>
-                                <p class="blog-container-date">June 18, 2024</p>
-                                <p class="blog-container-title">Why Bizarre Engine?</p>
-                                <p class="blog-container-content">Read the history behind the engine.</p>
-
-                                <div class="blog-container-button">
-                                    <a href="#blog" class="blog-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="blog-button-img">read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
 
@@ -265,34 +231,34 @@
                 <div class="item-row-container">
                     <div class="item-container">
                         <p class="item-container-title">Step 1</p>   
-                        <img src="assets/logo/install/gamemaker.svg" class="item-container-img">
+                        <img src="./assets/logo/install/gamemaker.svg" class="item-container-img">
                         <div>
                             <p class="item-container-content">Download & install Gamemaker</p>
-                            <a href="https://www.gamemaker.io/" class="item-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="item-button-img">download</a>
+                            <a href="https://www.gamemaker.io/" class="item-button" target="_blank"><img src="./assets/logo/page/external_link.svg" class="item-button-img">download</a>
                         </div>
                     </div>
                     
                     <div class="item-container">
                         <p class="item-container-title">Step 2</p>
-                        <img src="assets/logo/org/bizarre_engine_2_logo.svg" class="item-container-img">
+                        <img src="./assets/logo/org/bizarre_engine_2_logo.svg" class="item-container-img">
                         <div>
                             <p class="item-container-content">Download Bizarre Engine 2 package</p>
-                            <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/latest" class="item-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="item-button-img">download</a>
+                            <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/releases/latest" class="item-button" target="_blank"><img src="./assets/logo/page/external_link.svg" class="item-button-img">download</a>
                         </div>
                     </div>
                     
                     <div class="item-container">
                         <p class="item-container-title">Step 3</p>
-                        <img src="assets/logo/install/extract.svg" class="item-container-img">
+                        <img src="./assets/logo/install/extract.svg" class="item-container-img">
                         <div>
                             <p class="item-container-content">Import Bizarre Engine 2 to Gamemaker</p>
-                            <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/?tab=readme-ov-file#how-to-import" class="item-button" target="_blank"><img src="assets/logo/page/external_link.svg" class="item-button-img">see how</a>
+                            <a href="https://github.com/Coffee-Mug-Games/Bizarre-Engine-2/?tab=readme-ov-file#how-to-import" class="item-button" target="_blank"><img src="./assets/logo/page/external_link.svg" class="item-button-img">see how</a>
                         </div>
                     </div>
 
                     <div class="item-container">
                         <p class="item-container-title">All ready</p>
-                        <img src="assets/logo/install/finish.svg" class="item-container-img">
+                        <img src="./assets/logo/install/finish.svg" class="item-container-img">
                         <div>
                             <p class="item-container-content">We also recommend to read the docs</p>
                             <a href="#docs" class="item-button">read documentation</a>
@@ -303,7 +269,7 @@
         </main>
 
         <footer class="footer-container">
-            <img src="assets/logo/org/coffee_mug_games.svg" class="footer-logo logo-cmg">
+            <img src="./assets/logo/org/coffee_mug_games.svg" class="footer-logo logo-cmg">
             <p class="footer-container-content">2024 Coffee Mug Games</p>
         </footer>
     </body>
