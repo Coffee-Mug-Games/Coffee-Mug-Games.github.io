@@ -24,13 +24,13 @@
         if (navHamburgerOpen === false) {
             navHamburgerOpen = true;
             // close
-            navHamburgerIcon.src = "./assets/logo/page/hamburguer.svg";
-            navHamburger.style.animation = "nav-hamburguer-tray-close 0.3s forwards ease";
+            navHamburgerIcon.src = "./assets/logo/page/hamburger.svg";
+            navHamburger.style.animation = "nav-hamburger-tray-close 0.3s forwards ease";
         } else {
             navHamburgerOpen = false;
             // open
-            navHamburgerIcon.src = "./assets/logo/page/hamburguer_close.svg";
-            navHamburger.style.animation = "nav-hamburguer-tray-open 0.2s forwards ease";
+            navHamburgerIcon.src = "./assets/logo/page/hamburger_close.svg";
+            navHamburger.style.animation = "nav-hamburger-tray-open 0.2s forwards ease";
         }
     }
 
