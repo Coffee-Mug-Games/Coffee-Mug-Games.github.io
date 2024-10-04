@@ -1,0 +1,16 @@
+{
+    "metadata": {
+      "name": "Coffee Censor",
+      "company": "Coffee Mug Games",
+      "homepage": "https://coffee-mug-games.github.io/",
+      "supportlink": "https://github.com/Coffee-Mug-Games/",
+      "userversion": "1.0",
+      "version": 1
+    },
+    "data": [
+        "value 1",
+        "value 2",
+        "value 3"
+    ]
+  }
+  
