@@ -4,7 +4,8 @@
     "company": "Coffee Mug Games",
     "homepage": "https://coffee-mug-games.github.io/",
     "supportlink": "https://github.com/Coffee-Mug-Games/",
-    "altfile" : "",
+    "usealtfile": false,
+    "altfilelink" : "",
     "userversion": "1.0",
     "version": 2
   },
