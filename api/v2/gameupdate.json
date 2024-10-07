@@ -7,5 +7,14 @@
       ["link b", "google.com"],
       ["link c", "google.com"]
     ]
+  },
+  "floridadecay": {
+    "version": 0,
+    "userversion": "1.0",
+    "link": [
+      ["link a", "google.com"],
+      ["link b", "google.com"],
+      ["link c", "google.com"]
+    ]
   }
 }
