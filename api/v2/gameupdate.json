@@ -2,6 +2,7 @@
   "inmemoriam": {
     "version": 0,
     "userversion": "1.0",
+    "altfile" : "",
     "link": [
       ["link a", "google.com"],
       ["link b", "google.com"],
@@ -11,6 +12,7 @@
   "floridadecay": {
     "version": 0,
     "userversion": "1.0",
+    "altfile" : "",
     "link": [
       ["link a", "google.com"],
       ["link b", "google.com"],
