@@ -1,6 +1,7 @@
 {
   "inmemoriam": {
-    "version": [0, "1.0"],
+    "version": 0,
+    "userversion": "1.0",
     "link": [
       ["link a", "google.com"],
       ["link b", "google.com"],
@@ -8,7 +9,8 @@
     ]
   },
   "floridadecay": {
-    "version": [0, "1.0"],
+    "version": 0,
+    "userversion": "1.0",
     "link": [
       ["link a", "google.com"],
       ["link b", "google.com"],
