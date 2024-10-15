@@ -4,9 +4,7 @@
     "version": 20241014,
     "userversion": "1.0",
     "link": [
-      ["link a", "https://www.google.com"],
-      ["link b", "https://www.google.com"],
-      ["link c", "https://www.google.com"]
+      ["link a", "https://www.google.com"]
     ]
   },
   "floridadecay": {
