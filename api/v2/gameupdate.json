@@ -1,5 +1,6 @@
 {
   "inmemoriam": {
+    "serveractive": false,
     "version": 20241014,
     "userversion": "1.0",
     "link": [
@@ -9,6 +10,7 @@
     ]
   },
   "floridadecay": {
+    "serveractive": false,
     "version": 0,
     "userversion": "1.0",
     "link": [
