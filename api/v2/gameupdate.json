@@ -1,6 +1,6 @@
 {
   "inmemoriam": {
-    "serveractive": true,
+    "serveractive": false,
     "version": 20241101,
     "userversion": "1.0",
     "link": [
