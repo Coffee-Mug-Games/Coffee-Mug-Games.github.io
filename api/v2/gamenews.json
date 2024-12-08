@@ -1,20 +1,31 @@
 {
-  "inmemoriam": {
-    "serveractive": true,
-    "version": 20241106,
-    "userversion": "1.0",
-    "link": [
-      ["ITCH.IO", "https://brunoo1545.itch.io/in-memoriam"]
-    ]
+  "metadata" : {
+    "version": 0
   },
-  "floridadecay": {
-    "serveractive": false,
-    "version": 0,
-    "userversion": "1.0",
-    "link": [
-      ["link a", "google.com"],
-      ["link b", "google.com"],
-      ["link c", "google.com"]
-    ]
-  }
+ "inmemoriam": [
+    {
+      "date": "",
+      "title": "",
+      "description": "",
+      "link": "",
+      "image": [
+        "",
+        "",
+        ""
+      ]
+    }
+ ],
+ "floridadecay": [
+    {
+      "date": "",
+      "title": "",
+      "description": "",
+      "link": "",
+      "image": [
+        "",
+        "",
+        ""
+      ]
+    }
+ ]
 }
