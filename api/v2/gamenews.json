@@ -1,0 +1,20 @@
+{
+  "inmemoriam": {
+    "serveractive": true,
+    "version": 20241106,
+    "userversion": "1.0",
+    "link": [
+      ["ITCH.IO", "https://brunoo1545.itch.io/in-memoriam"]
+    ]
+  },
+  "floridadecay": {
+    "serveractive": false,
+    "version": 0,
+    "userversion": "1.0",
+    "link": [
+      ["link a", "google.com"],
+      ["link b", "google.com"],
+      ["link c", "google.com"]
+    ]
+  }
+}
