@@ -8,7 +8,8 @@
     "userversion": "1.0",
     "link": [
       ["ITCH.IO", "https://brunoo1545.itch.io/in-memoriam"]
-    ]
+    ],
+    "metadata": {}
   },
   "floridadecay": {
     "serveractive": false,
@@ -18,6 +19,7 @@
       ["link a", "google.com"],
       ["link b", "google.com"],
       ["link c", "google.com"]
-    ]
+    ],
+    "metadata": {}
   }
 }
